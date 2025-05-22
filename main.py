@@ -22,4 +22,11 @@ if image is not None:
                       'image.jpg',
                       'image/jpg')
 
-  
+  hide_menu = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_menu, unsafe_allow_html=True)
