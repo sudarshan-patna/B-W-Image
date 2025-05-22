@@ -22,7 +22,8 @@ if image is not None:
                       'image.jpg',
                       'image/jpg')
 
-  hide_menu = """
+
+hide_menu = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
